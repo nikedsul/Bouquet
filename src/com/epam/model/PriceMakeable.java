@@ -8,7 +8,7 @@ package com.epam.model;
 public interface PriceMakeable {
 
     /**
-     * Value added tax (1.2 - means 20%)
+     * Value-added-tax (1.2 - means 20%)
      */
     double VAT = 1.2;
 
@@ -18,6 +18,5 @@ public interface PriceMakeable {
     double getTotalPrice();
     double getPurchasingPrice();
     double getExtraCostPercent();
-
     int getQuantity();
 }
