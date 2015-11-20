@@ -18,5 +18,6 @@ public interface PriceMakeable {
     double getTotalPrice();
     double getPurchasingPrice();
     double getExtraCostPercent();
+
     int getQuantity();
 }
